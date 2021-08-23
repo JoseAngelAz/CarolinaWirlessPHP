@@ -17,7 +17,7 @@
  <body>
  <?php
   include ('navbar.html');
-  include("../serviceStoreGalery/principal.php");
+  //include("../serviceStoreGalery/principal.php");
   ?>
 
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
