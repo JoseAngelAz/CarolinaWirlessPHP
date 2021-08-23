@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <body>
+    <div class="personal-modal" >
+      <div class="topnav" id="myTopnav">
+        <div class="container">
+        <a class="logo" href="./">
+          <img width="175" height="44"
+          src="img/untitleddesign_1_500x170.png"
+          class="custom-logo" alt="Gym Store "
+          srcset="img/untitleddesign_1_500x170.png 1x,  2x">
+        </a>
+        <a href="./">HOME</a>
+        <a href="#shop">SHOP</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-2x fa-bars"></i>
+        </a>
+        </div>
+      </div>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+  </body>
+</html>

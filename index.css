@@ -1,0 +1,118 @@
+body{
+  width: 100%;
+  margin: 0;
+}
+.cont-card{
+  width: 100% !important;
+  display:flex !important;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 300px;
+}
+
+.titles-categories{
+  padding: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+   color:gray;
+   font-family: 'Century Gothic' !important;
+   font-size:25px;
+}
+.container-img{
+    padding: 5px;
+    position: relative !important;
+    display: inline-block
+    text-align: center;
+    cursor: pointer;
+}
+@media (min-width: 768px)
+.banner-image-categories {
+    display: block;
+}
+@media (min-width: 356px)
+.banner-image-categories {
+    display: block;
+}
+
+.banner-image-categories{
+  width: 90%;
+  height: 80px;
+  position: absolute;
+  display: none;
+  background-color: #084298;
+  opacity: 0.85;
+  left: 50%;
+  top:85%;
+  color: white;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.banner-image-categories p{
+  margin: 0;
+}
+.banner-image-categories p:first-child{
+  padding-top: 5%;
+}
+.container-img:hover > .banner-image-categories{
+  display: block;
+}
+@media (min-width: 768px)
+.container-store {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container-store {
+    max-width: 540px;
+}
+
+.container-store {
+    width: 95%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+/** posible pasar a css aparte **/
+@media (max-width: 776px){
+  .img-company{
+    width: 130px !important;
+  }
+
+  .sub-title{
+    font-size: 22px !important;
+    color: #ffffff !important;
+  }
+
+  .back{
+    opacity: 0.3 !important;
+  }
+
+  .banner-image-categories{
+    display: block !important;
+  }
+}
+
+
+.img-company{
+  position:absolute;
+  top:0;
+  z-index: 3;
+  right:0%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sub-title{
+  position:absolute;
+  z-index: 3;
+  font-weight: bold;
+  bottom: 0; left:10px;
+  font-family: inherit;
+  font-size: 2rem;
+}
