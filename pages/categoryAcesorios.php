@@ -3,7 +3,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Carolina Wireless</title>
-  <link rel="stylesheet" href="css/cssGloval.css">
   <?php
   include '../component/headerInclude.html';
   ?>
